@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tensorflow/tensorflow.dart';
+import 'package:tensorflow/homepage.dart';
+//import 'package:tensorflow/tensorflow.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,8 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tensorflow Lite',
-      home: Tensorflow(),
+      title: 'skn-app',
+      home: Home(),
     );
   }
 }

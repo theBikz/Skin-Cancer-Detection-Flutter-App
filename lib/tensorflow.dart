@@ -71,14 +71,15 @@ class _TensorflowState extends State<Tensorflow> {
         appBar: AppBar(
           centerTitle: true,
           title: Text(
-            "Skin Cancer Detection",
+            "SknApp",
             style: TextStyle(color: Colors.white, fontSize: 25),
           ),
-          backgroundColor: Colors.deepPurpleAccent,
+          backgroundColor: Colors.red,
           elevation: 0,
         ),
         body: Container(
-          color: Colors.white,
+          // height: MediaQuery.of(context).size.height,
+          color: Colors.black45,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -90,6 +91,7 @@ class _TensorflowState extends State<Tensorflow> {
                   : Container(
                       margin: EdgeInsets.all(20),
                       width: MediaQuery.of(context).size.width,
+                      //height: MediaQuery.of(context).size.height,
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -121,7 +123,7 @@ class _TensorflowState extends State<Tensorflow> {
                   size: 20,
                   color: Colors.black,
                 ),
-                backgroundColor: Colors.amber,
+                backgroundColor: Colors.redAccent,
               ),
             ],
           ),
