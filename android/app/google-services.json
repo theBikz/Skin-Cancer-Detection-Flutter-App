@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722814435334",
+    "project_id": "skn-app-6cd7a",
+    "storage_bucket": "skn-app-6cd7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722814435334:android:ec1201539ee6c062724387",
+        "android_client_info": {
+          "package_name": "com.example.tensorflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722814435334-pqppi2rqdbat4jgov1s8f7us7ng8jq3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnISn_K6j8US4IzlZ_o2pXHbndV2876_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722814435334-pqppi2rqdbat4jgov1s8f7us7ng8jq3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
